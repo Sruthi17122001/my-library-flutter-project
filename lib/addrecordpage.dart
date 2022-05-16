@@ -10,8 +10,8 @@ class AddRecordPage extends StatefulWidget {
 class _AddRecordPageState extends State<AddRecordPage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      body: Text("add page"),
+    return Scaffold(
+      body: Text("add record page"),
     );
   }
 }
